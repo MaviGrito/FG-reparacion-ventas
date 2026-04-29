@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "products": "Productos",
+    "brands": "Marcas",
+    "contact": "Contacto",
+    "consult": "Consúltanos"
+  },
+  "hero": {
+    "title": "Servicio técnico confiable y electrodomésticos reacondicionados al mejor precio",
+    "subtitle": "Reparación, venta y servicios eléctricos domiciliarios. Trabajamos con las herramientas adecuadas para garantizar resultados de calidad.",
+    "cta_services": "Ver Servicios",
+    "cta_whatsapp": "Contáctanos por WhatsApp",
+    "counter_years": "Años",
+    "counter_clients": "Clientes",
+    "counter_repairs": "Reparaciones",
+    "counter_guarantee": "Garantía de Trabajo"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones profesionales para todos tus electrodomésticos",
+    "consult_btn": "Consúltanos",
+    "fridge": {
+      "title": "Reparación de Neveras",
+      "short": "Diagnóstico y reparación de neveras de todas las marcas.",
+      "long": "Ofrecemos diagnóstico rápido y reparación profesional de neveras de todas las marcas. Trabajamos con repuestos originales y garantizamos nuestro trabajo.",
+      "whatsapp": "Hola, necesito ayuda con la reparación de mi nevera."
+    },
+    "washer": {
+      "title": "Reparación de Lavadoras y Secadoras",
+      "short": "Servicio técnico especializado en lavadoras y secadoras.",
+      "long": "Reparamos lavadoras y secadoras de carga frontal y superior. Técnicos certificados con experiencia en todas las marcas del mercado.",
+      "whatsapp": "Hola, necesito ayuda con la reparación de mi lavadora/secadora."
+    },
+    "stove": {
+      "title": "Reparación de Estufas",
+      "short": "Reparación de estufas a gas y eléctricas.",
+      "long": "Servicio técnico para estufas a gas y eléctricas. Reparamos quemadores, hornos, controles electrónicos y más.",
+      "whatsapp": "Hola, necesito ayuda con la reparación de mi estufa."
+    },
+    "ac": {
+      "title": "Mantenimiento de Aire Acondicionado",
+      "short": "Instalación, mantenimiento y reparación de aires acondicionados.",
+      "long": "Servicio completo de aires acondicionados: instalación, mantenimiento preventivo, recarga de refrigerante y reparación de averías.",
+      "whatsapp": "Hola, necesito ayuda con mi aire acondicionado."
+    },
+    "electrical": {
+      "title": "Servicios Eléctricos Domiciliarios",
+      "short": "Instalaciones y reparaciones eléctricas en tu hogar.",
+      "long": "Realizamos instalaciones eléctricas, reparación de cortocircuitos, instalación de tomacorrientes, interruptores y paneles eléctricos.",
+      "whatsapp": "Hola, necesito un servicio eléctrico domiciliario."
+    },
+    "maintenance": {
+      "title": "Mantenimiento Preventivo",
+      "short": "Mantenimiento periódico para prolongar la vida de tus equipos.",
+      "long": "El mantenimiento preventivo regular extiende la vida útil de tus electrodomésticos y evita reparaciones costosas. Agenda tu mantenimiento hoy.",
+      "whatsapp": "Hola, me interesa el servicio de mantenimiento preventivo."
+    }
+  },
+  "whyUs": {
+    "title": "¿Por Qué Elegirnos?",
+    "subtitle": "Más de 15 años de experiencia nos respaldan",
+    "points": [
+      "Más de 15 años de experiencia en el sector",
+      "Técnicos certificados y capacitados",
+      "Usamos herramientas y repuestos de calidad",
+      "Diagnóstico rápido y presupuesto sin compromiso",
+      "Servicio a domicilio disponible",
+      "Garantía en todas las reparaciones",
+      "Atención personalizada y honesta"
+    ]
+  },
+  "brands": {
+    "title": "Marcas que Manejamos",
+    "subtitle": "Trabajamos con las principales marcas del mercado"
+  },
+  "products": {
+    "title": "Productos Disponibles",
+    "subtitle": "Electrodomésticos de calidad a los mejores precios",
+    "view_all": "Ver todos los productos",
+    "consult_btn": "Comprar / Consultar",
+    "filter_all": "Todos",
+    "filter_fridges": "Neveras",
+    "filter_washers": "Lavadoras",
+    "filter_dryers": "Secadoras",
+    "filter_stoves": "Estufas",
+    "filter_ac": "A/C",
+    "filter_electrical": "Eléctrico",
+    "filter_other": "Otros",
+    "search_placeholder": "Buscar productos...",
+    "empty_title": "No se encontraron productos",
+    "empty_subtitle": "Intenta con otra búsqueda o categoría",
+    "error_title": "Error al cargar productos",
+    "error_subtitle": "No pudimos cargar los productos. Por favor intenta de nuevo.",
+    "retry": "Reintentar",
+    "whatsapp_msg": "Hola, estoy interesado en el producto: {{name}} a ${{price}}",
+    "available": "Disponible",
+    "out_of_stock": "Agotado",
+    "load_more": "Cargar más"
+  },
+  "location": {
+    "title": "¿Dónde Estamos?",
+    "subtitle": "Visítanos o solicita servicio a domicilio",
+    "address_label": "Dirección",
+    "address": "Miami, FL, USA (dirección por confirmar)",
+    "hours_label": "Horario de Atención",
+    "hours": "Lunes a Viernes: 8:00 AM - 6:00 PM | Sábados: 9:00 AM - 3:00 PM",
+    "directions_btn": "Cómo llegar",
+    "phone_label": "Teléfono / WhatsApp"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para ayudarte",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "submit": "Enviar mensaje",
+    "sending": "Enviando...",
+    "success_title": "¡Mensaje enviado!",
+    "success_msg": "Nos pondremos en contacto contigo pronto.",
+    "error_msg": "Error al enviar. Por favor intenta de nuevo.",
+    "required": "Este campo es requerido",
+    "invalid_email": "Correo electrónico inválido"
+  },
+  "footer": {
+    "slogan": "Expertos en electrodomésticos a tu servicio",
+    "quick_links": "Enlaces Rápidos",
+    "follow_us": "Síguenos",
+    "contact_us": "Contáctanos",
+    "copyright": "© {{year}} F&G Reparación y Ventas. Todos los derechos reservados."
+  },
+  "admin": {
+    "login_title": "Panel de Administración",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "login_btn": "Iniciar sesión",
+    "logout_btn": "Cerrar sesión",
+    "view_site": "Ver sitio",
+    "products_title": "Gestión de Productos",
+    "add_product": "Agregar producto",
+    "edit_product": "Editar producto",
+    "delete_product": "Eliminar producto",
+    "delete_confirm": "¿Estás seguro de que deseas eliminar este producto?",
+    "settings_title": "Configuración del Sitio",
+    "save": "Guardar cambios",
+    "saving": "Guardando...",
+    "saved": "Cambios guardados",
+    "cancel": "Cancelar",
+    "name_es": "Nombre (Español)",
+    "name_en": "Nombre (Inglés)",
+    "name_fr": "Nombre (Francés)",
+    "desc_es": "Descripción (Español)",
+    "desc_en": "Descripción (Inglés)",
+    "desc_fr": "Descripción (Francés)",
+    "price": "Precio (USD)",
+    "category": "Categoría",
+    "status": "Estado",
+    "image": "Imagen",
+    "upload_image": "Subir imagen",
+    "preview": "Vista previa"
+  },
+  "errors": {
+    "user_not_found": "Usuario no encontrado",
+    "wrong_password": "Contraseña incorrecta",
+    "too_many_requests": "Demasiados intentos. Intenta más tarde.",
+    "network_error": "Error de red. Verifica tu conexión.",
+    "generic": "Ocurrió un error. Por favor intenta de nuevo."
+  }
+}

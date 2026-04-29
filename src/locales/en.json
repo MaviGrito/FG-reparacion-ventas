@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "products": "Products",
+    "brands": "Brands",
+    "contact": "Contact",
+    "consult": "Contact Us"
+  },
+  "hero": {
+    "title": "Appliance Experts with Over 15 Years of Experience",
+    "subtitle": "Repair, sales, and home electrical services. We use the right tools to guarantee quality results.",
+    "cta_services": "View Services",
+    "cta_whatsapp": "Contact Us on WhatsApp",
+    "counter_years": "Years",
+    "counter_clients": "Clients",
+    "counter_repairs": "Repairs",
+    "counter_guarantee": "Work Guarantee"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional solutions for all your appliances",
+    "consult_btn": "Contact Us",
+    "fridge": {
+      "title": "Refrigerator Repair",
+      "short": "Diagnosis and repair of refrigerators of all brands.",
+      "long": "We offer fast diagnosis and professional repair of refrigerators of all brands. We work with original parts and guarantee our work.",
+      "whatsapp": "Hello, I need help with my refrigerator repair."
+    },
+    "washer": {
+      "title": "Washer & Dryer Repair",
+      "short": "Specialized technical service for washers and dryers.",
+      "long": "We repair front-load and top-load washers and dryers. Certified technicians with experience in all market brands.",
+      "whatsapp": "Hello, I need help with my washer/dryer repair."
+    },
+    "stove": {
+      "title": "Stove Repair",
+      "short": "Repair of gas and electric stoves.",
+      "long": "Technical service for gas and electric stoves. We repair burners, ovens, electronic controls, and more.",
+      "whatsapp": "Hello, I need help with my stove repair."
+    },
+    "ac": {
+      "title": "Air Conditioning Maintenance",
+      "short": "Installation, maintenance, and repair of air conditioners.",
+      "long": "Complete air conditioning service: installation, preventive maintenance, refrigerant recharge, and fault repair.",
+      "whatsapp": "Hello, I need help with my air conditioner."
+    },
+    "electrical": {
+      "title": "Home Electrical Services",
+      "short": "Electrical installations and repairs in your home.",
+      "long": "We perform electrical installations, short circuit repairs, outlet installation, switches, and electrical panels.",
+      "whatsapp": "Hello, I need a home electrical service."
+    },
+    "maintenance": {
+      "title": "Preventive Maintenance",
+      "short": "Periodic maintenance to extend the life of your appliances.",
+      "long": "Regular preventive maintenance extends the useful life of your appliances and avoids costly repairs. Schedule your maintenance today.",
+      "whatsapp": "Hello, I'm interested in the preventive maintenance service."
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose Us?",
+    "subtitle": "Over 15 years of experience back us up",
+    "points": [
+      "Over 15 years of experience in the industry",
+      "Certified and trained technicians",
+      "We use quality tools and parts",
+      "Fast diagnosis and no-obligation quote",
+      "Home service available",
+      "Guarantee on all repairs",
+      "Personalized and honest service"
+    ]
+  },
+  "brands": {
+    "title": "Brands We Work With",
+    "subtitle": "We work with the leading brands on the market"
+  },
+  "products": {
+    "title": "Available Products",
+    "subtitle": "Quality appliances at the best prices",
+    "view_all": "View all products",
+    "consult_btn": "Buy / Inquire",
+    "filter_all": "All",
+    "filter_fridges": "Refrigerators",
+    "filter_washers": "Washers",
+    "filter_dryers": "Dryers",
+    "filter_stoves": "Stoves",
+    "filter_ac": "A/C",
+    "filter_electrical": "Electrical",
+    "filter_other": "Others",
+    "search_placeholder": "Search products...",
+    "empty_title": "No products found",
+    "empty_subtitle": "Try a different search or category",
+    "error_title": "Error loading products",
+    "error_subtitle": "We couldn't load the products. Please try again.",
+    "retry": "Retry",
+    "whatsapp_msg": "Hello, I'm interested in the product: {{name}} at ${{price}}",
+    "available": "Available",
+    "out_of_stock": "Out of Stock",
+    "load_more": "Load more"
+  },
+  "location": {
+    "title": "Where Are We?",
+    "subtitle": "Visit us or request home service",
+    "address_label": "Address",
+    "address": "Miami, FL, USA (address to be confirmed)",
+    "hours_label": "Business Hours",
+    "hours": "Monday to Friday: 8:00 AM - 6:00 PM | Saturdays: 9:00 AM - 3:00 PM",
+    "directions_btn": "Get Directions",
+    "phone_label": "Phone / WhatsApp"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Send message",
+    "sending": "Sending...",
+    "success_title": "Message sent!",
+    "success_msg": "We will get in touch with you soon.",
+    "error_msg": "Error sending. Please try again.",
+    "required": "This field is required",
+    "invalid_email": "Invalid email address"
+  },
+  "footer": {
+    "slogan": "Appliance experts at your service",
+    "quick_links": "Quick Links",
+    "follow_us": "Follow Us",
+    "contact_us": "Contact Us",
+    "copyright": "© {{year}} F&G Repair and Sales. All rights reserved."
+  },
+  "admin": {
+    "login_title": "Administration Panel",
+    "email": "Email address",
+    "password": "Password",
+    "login_btn": "Sign in",
+    "logout_btn": "Sign out",
+    "view_site": "View site",
+    "products_title": "Product Management",
+    "add_product": "Add product",
+    "edit_product": "Edit product",
+    "delete_product": "Delete product",
+    "delete_confirm": "Are you sure you want to delete this product?",
+    "settings_title": "Site Settings",
+    "save": "Save changes",
+    "saving": "Saving...",
+    "saved": "Changes saved",
+    "cancel": "Cancel",
+    "name_es": "Name (Spanish)",
+    "name_en": "Name (English)",
+    "name_fr": "Name (French)",
+    "desc_es": "Description (Spanish)",
+    "desc_en": "Description (English)",
+    "desc_fr": "Description (French)",
+    "price": "Price (USD)",
+    "category": "Category",
+    "status": "Status",
+    "image": "Image",
+    "upload_image": "Upload image",
+    "preview": "Preview"
+  },
+  "errors": {
+    "user_not_found": "User not found",
+    "wrong_password": "Wrong password",
+    "too_many_requests": "Too many attempts. Please try again later.",
+    "network_error": "Network error. Check your connection.",
+    "generic": "An error occurred. Please try again."
+  }
+}

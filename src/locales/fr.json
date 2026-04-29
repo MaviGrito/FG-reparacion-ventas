@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "products": "Produits",
+    "brands": "Marques",
+    "contact": "Contact",
+    "consult": "Nous contacter"
+  },
+  "hero": {
+    "title": "Experts en Électroménager avec Plus de 15 Ans d'Expérience",
+    "subtitle": "Réparation, vente et services électriques à domicile. Nous utilisons les bons outils pour garantir des résultats de qualité.",
+    "cta_services": "Voir les Services",
+    "cta_whatsapp": "Contactez-nous sur WhatsApp",
+    "counter_years": "Ans",
+    "counter_clients": "Clients",
+    "counter_repairs": "Réparations",
+    "counter_guarantee": "Garantie de Travail"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions professionnelles pour tous vos appareils électroménagers",
+    "consult_btn": "Nous contacter",
+    "fridge": {
+      "title": "Réparation de Réfrigérateurs",
+      "short": "Diagnostic et réparation de réfrigérateurs de toutes marques.",
+      "long": "Nous offrons un diagnostic rapide et une réparation professionnelle des réfrigérateurs de toutes marques. Nous travaillons avec des pièces d'origine et garantissons notre travail.",
+      "whatsapp": "Bonjour, j'ai besoin d'aide pour la réparation de mon réfrigérateur."
+    },
+    "washer": {
+      "title": "Réparation de Lave-linge et Sèche-linge",
+      "short": "Service technique spécialisé pour lave-linge et sèche-linge.",
+      "long": "Nous réparons les lave-linge et sèche-linge à chargement frontal et supérieur. Techniciens certifiés avec expérience dans toutes les marques du marché.",
+      "whatsapp": "Bonjour, j'ai besoin d'aide pour la réparation de mon lave-linge/sèche-linge."
+    },
+    "stove": {
+      "title": "Réparation de Cuisinières",
+      "short": "Réparation de cuisinières à gaz et électriques.",
+      "long": "Service technique pour cuisinières à gaz et électriques. Nous réparons les brûleurs, fours, commandes électroniques et plus encore.",
+      "whatsapp": "Bonjour, j'ai besoin d'aide pour la réparation de ma cuisinière."
+    },
+    "ac": {
+      "title": "Entretien de Climatisation",
+      "short": "Installation, entretien et réparation de climatiseurs.",
+      "long": "Service complet de climatisation : installation, entretien préventif, recharge de réfrigérant et réparation de pannes.",
+      "whatsapp": "Bonjour, j'ai besoin d'aide avec ma climatisation."
+    },
+    "electrical": {
+      "title": "Services Électriques à Domicile",
+      "short": "Installations et réparations électriques chez vous.",
+      "long": "Nous réalisons des installations électriques, réparation de courts-circuits, installation de prises, interrupteurs et tableaux électriques.",
+      "whatsapp": "Bonjour, j'ai besoin d'un service électrique à domicile."
+    },
+    "maintenance": {
+      "title": "Entretien Préventif",
+      "short": "Entretien périodique pour prolonger la durée de vie de vos appareils.",
+      "long": "L'entretien préventif régulier prolonge la durée de vie de vos appareils électroménagers et évite des réparations coûteuses. Planifiez votre entretien aujourd'hui.",
+      "whatsapp": "Bonjour, je suis intéressé par le service d'entretien préventif."
+    }
+  },
+  "whyUs": {
+    "title": "Pourquoi Nous Choisir ?",
+    "subtitle": "Plus de 15 ans d'expérience nous soutiennent",
+    "points": [
+      "Plus de 15 ans d'expérience dans le secteur",
+      "Techniciens certifiés et formés",
+      "Nous utilisons des outils et des pièces de qualité",
+      "Diagnostic rapide et devis sans engagement",
+      "Service à domicile disponible",
+      "Garantie sur toutes les réparations",
+      "Service personnalisé et honnête"
+    ]
+  },
+  "brands": {
+    "title": "Marques que Nous Gérons",
+    "subtitle": "Nous travaillons avec les principales marques du marché"
+  },
+  "products": {
+    "title": "Produits Disponibles",
+    "subtitle": "Appareils électroménagers de qualité aux meilleurs prix",
+    "view_all": "Voir tous les produits",
+    "consult_btn": "Acheter / Consulter",
+    "filter_all": "Tous",
+    "filter_fridges": "Réfrigérateurs",
+    "filter_washers": "Lave-linge",
+    "filter_dryers": "Sèche-linge",
+    "filter_stoves": "Cuisinières",
+    "filter_ac": "Clim.",
+    "filter_electrical": "Électrique",
+    "filter_other": "Autres",
+    "search_placeholder": "Rechercher des produits...",
+    "empty_title": "Aucun produit trouvé",
+    "empty_subtitle": "Essayez une autre recherche ou catégorie",
+    "error_title": "Erreur lors du chargement des produits",
+    "error_subtitle": "Nous n'avons pas pu charger les produits. Veuillez réessayer.",
+    "retry": "Réessayer",
+    "whatsapp_msg": "Bonjour, je suis intéressé par le produit : {{name}} à ${{price}}",
+    "available": "Disponible",
+    "out_of_stock": "Épuisé",
+    "load_more": "Charger plus"
+  },
+  "location": {
+    "title": "Où Sommes-Nous ?",
+    "subtitle": "Visitez-nous ou demandez un service à domicile",
+    "address_label": "Adresse",
+    "address": "Miami, FL, USA (adresse à confirmer)",
+    "hours_label": "Heures d'Ouverture",
+    "hours": "Lundi au Vendredi : 8h00 - 18h00 | Samedis : 9h00 - 15h00",
+    "directions_btn": "Obtenir l'itinéraire",
+    "phone_label": "Téléphone / WhatsApp"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes là pour vous aider",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone",
+    "message": "Message",
+    "submit": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success_title": "Message envoyé !",
+    "success_msg": "Nous vous contacterons bientôt.",
+    "error_msg": "Erreur lors de l'envoi. Veuillez réessayer.",
+    "required": "Ce champ est obligatoire",
+    "invalid_email": "Adresse e-mail invalide"
+  },
+  "footer": {
+    "slogan": "Experts en électroménager à votre service",
+    "quick_links": "Liens Rapides",
+    "follow_us": "Suivez-Nous",
+    "contact_us": "Contactez-Nous",
+    "copyright": "© {{year}} F&G Réparation et Ventes. Tous droits réservés."
+  },
+  "admin": {
+    "login_title": "Panneau d'Administration",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "login_btn": "Se connecter",
+    "logout_btn": "Se déconnecter",
+    "view_site": "Voir le site",
+    "products_title": "Gestion des Produits",
+    "add_product": "Ajouter un produit",
+    "edit_product": "Modifier le produit",
+    "delete_product": "Supprimer le produit",
+    "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce produit ?",
+    "settings_title": "Paramètres du Site",
+    "save": "Enregistrer les modifications",
+    "saving": "Enregistrement...",
+    "saved": "Modifications enregistrées",
+    "cancel": "Annuler",
+    "name_es": "Nom (Espagnol)",
+    "name_en": "Nom (Anglais)",
+    "name_fr": "Nom (Français)",
+    "desc_es": "Description (Espagnol)",
+    "desc_en": "Description (Anglais)",
+    "desc_fr": "Description (Français)",
+    "price": "Prix (USD)",
+    "category": "Catégorie",
+    "status": "Statut",
+    "image": "Image",
+    "upload_image": "Télécharger une image",
+    "preview": "Aperçu"
+  },
+  "errors": {
+    "user_not_found": "Utilisateur introuvable",
+    "wrong_password": "Mot de passe incorrect",
+    "too_many_requests": "Trop de tentatives. Veuillez réessayer plus tard.",
+    "network_error": "Erreur réseau. Vérifiez votre connexion.",
+    "generic": "Une erreur s'est produite. Veuillez réessayer."
+  }
+}
