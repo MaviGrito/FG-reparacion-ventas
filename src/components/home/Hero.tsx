@@ -54,11 +54,11 @@ export default function Hero() {
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden">
       {/* Background image */}
       <div
-        className="absolute inset-0 bg-black bg-contain bg-[center_30%] bg-no-repeat"
+        className="absolute inset-0 bg-[#29ABE2] bg-contain bg-[center_30%] bg-no-repeat"
         style={{ backgroundImage: "url('/images/fondo.png')" }}
       />
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/70" />
+      <div className="absolute inset-0 bg-[#29ABE2]/60" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 flex flex-col flex-1 justify-end pb-32">
@@ -67,9 +67,11 @@ export default function Hero() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="font-poppins font-bold text-4xl sm:text-5xl lg:text-6xl text-white leading-tight mb-6"
+            className="font-poppins font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6"
           >
-            {heroTitle}
+            <span className="text-white">Servicio técnico confiable y </span>
+            <span className="text-accent">electrodomésticos reacondicionados al </span>
+            <span className="text-white">mejor precio</span>
           </motion.h1>
 
           <motion.p

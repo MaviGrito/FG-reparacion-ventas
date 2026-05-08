@@ -18,13 +18,13 @@ export const DEFAULT_SETTINGS: Settings = {
     { label: 'hero.counter_repairs', value: 1000, suffix: '+' },
     { label: 'hero.counter_guarantee', value: 100, suffix: '%' },
   ],
-  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114933.02!2d-80.2994!3d25.7617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL!5e0!3m2!1sen!2sus!4v1',
+  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.4!2d-80.0722!3d26.6891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d9b0e1234567%3A0xabcdef1234567890!2s941%20S%20Military%20Trl%20Suite%20F8%2C%20West%20Palm%20Beach%2C%20FL%2033415!5e0!3m2!1sen!2sus!4v1',
   businessHours: {
     es: 'Lunes a Viernes: 8:00 AM - 6:00 PM | Sábados: 9:00 AM - 3:00 PM',
     en: 'Monday to Friday: 8:00 AM - 6:00 PM | Saturdays: 9:00 AM - 3:00 PM',
     fr: 'Lundi au Vendredi : 8h00 - 18h00 | Samedis : 9h00 - 15h00',
   },
-  address: 'Miami, FL, USA',
+  address: '941 S Military Trl Suite F8, West Palm Beach, FL 33415',
   socialLinks: {},
 }
 

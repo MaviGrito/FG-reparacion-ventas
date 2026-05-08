@@ -59,7 +59,7 @@ export default function ServiceCard({ service, expanded = false }: ServiceCardPr
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-2 font-poppins font-semibold text-sm px-5 py-3 rounded-lg bg-[#25D366] text-white hover:bg-[#20bd5a] transition-colors"
+          className="inline-flex items-center justify-center gap-2 font-poppins font-bold text-sm px-5 py-3 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
         >
           <span>💬</span>
           {t('services.consult_btn')}
