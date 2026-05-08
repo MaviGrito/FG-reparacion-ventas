@@ -60,51 +60,56 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 flex flex-col flex-1 justify-end pb-32">
-        <div className="max-w-3xl">
-          {/* Caja azul con blur que encierra el contenido */}
-          <div className="bg-[#0D6EA0]/80 backdrop-blur-md rounded-2xl px-8 py-10 shadow-2xl">
-            <motion.h1
-              initial={{ opacity: 0, y: 40 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7 }}
-              className="font-poppins font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6"
-            >
-              <span className="text-white">Servicio técnico confiable y </span>
-              <span className="text-accent">electrodomésticos reacondicionados al </span>
-              <span className="text-white">mejor precio</span>
-            </motion.h1>
-
-            <motion.p
-              initial={{ opacity: 0, y: 40 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.2 }}
-              className="font-inter text-lg sm:text-xl text-white/90 mb-10 max-w-2xl"
-            >
-              {heroSubtitle}
-            </motion.p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <motion.button
-                initial={{ opacity: 0, y: 20 }}
+        <div className="max-w-2xl">
+          {/* Círculo glassmorphism */}
+          <div className="relative">
+            {/* Bola azul semitransparente de fondo */}
+            <div className="absolute -inset-10 bg-[#2196D3]/40 rounded-full blur-2xl" />
+            {/* Contenido sobre la bola */}
+            <div className="relative">
+              <motion.h1
+                initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.4 }}
-                onClick={handleScrollToServices}
-                className="font-poppins font-bold text-base px-8 py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
+                transition={{ duration: 0.7 }}
+                className="font-poppins font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6 drop-shadow-lg"
               >
-                {t('hero.cta_services')}
-              </motion.button>
+                <span className="text-white">Servicio técnico confiable y </span>
+                <span className="text-accent">electrodomésticos reacondicionados al </span>
+                <span className="text-white">mejor precio</span>
+              </motion.h1>
 
-              <motion.a
-                initial={{ opacity: 0, y: 20 }}
+              <motion.p
+                initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.5 }}
-                href={`https://wa.me/${WHATSAPP_NUMBER}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-poppins font-bold text-base px-8 py-4 rounded-lg bg-white/20 border-2 border-white text-white hover:bg-white hover:text-dark transition-colors text-center backdrop-blur-sm"
+                transition={{ duration: 0.7, delay: 0.2 }}
+                className="font-inter text-lg sm:text-xl text-white mb-10 max-w-xl drop-shadow"
               >
-                {t('hero.cta_whatsapp')}
-              </motion.a>
+                {heroSubtitle}
+              </motion.p>
+
+              <div className="flex flex-col sm:flex-row gap-4">
+                <motion.button
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                  onClick={handleScrollToServices}
+                  className="font-poppins font-bold text-base px-8 py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
+                >
+                  {t('hero.cta_services')}
+                </motion.button>
+
+                <motion.a
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  href={`https://wa.me/${WHATSAPP_NUMBER}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-poppins font-bold text-base px-8 py-4 rounded-lg bg-white/20 border-2 border-white text-white hover:bg-white hover:text-dark transition-colors text-center backdrop-blur-sm"
+                >
+                  {t('hero.cta_whatsapp')}
+                </motion.a>
+              </div>
             </div>
           </div>
         </div>
