@@ -60,56 +60,62 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 w-full flex flex-col flex-1 justify-end pb-20 pt-24">
-        {/* Mobile: centrado con padding, Desktop: pegado a la izquierda */}
-        <div className="w-full px-4 sm:px-0 sm:mr-auto sm:ml-16 lg:ml-24 sm:max-w-xl mt-16 sm:mt-8">
-          {/* Círculo definido — sin blur, bordes sólidos */}
-          <div className="relative">
-            {/* Elipse azul sólida semitransparente */}
-            <div className="absolute -inset-6 sm:-inset-16 bg-[#2196D3]/80 rounded-full" />
-            {/* Contenido sobre la bola */}
-            <div className="relative">
-              <motion.h1
-                initial={{ opacity: 0, y: 40 }}
+        {/* Elipse gigante que se sale por la izquierda — solo se ve la mitad derecha */}
+        <div className="relative w-full mt-16 sm:mt-8">
+          {/* Círculo azul sólido enorme, anclado a la izquierda saliéndose */}
+          <div
+            className="absolute bg-[#2196D3]/85 rounded-full"
+            style={{
+              width: 'clamp(420px, 75vw, 900px)',
+              height: 'clamp(420px, 75vw, 900px)',
+              left: 'clamp(-300px, -30vw, -180px)',
+              top: '50%',
+              transform: 'translateY(-50%)',
+            }}
+          />
+          {/* Texto encima del círculo */}
+          <div className="relative z-10 pl-8 sm:pl-16 lg:pl-24 pr-4 sm:pr-0 sm:max-w-xl py-16 sm:py-24">
+            <motion.h1
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7 }}
+              className="font-poppins font-bold text-2xl sm:text-5xl lg:text-6xl leading-tight mb-4 sm:mb-6 uppercase"
+            >
+              <span className="text-white">SERVICIO TÉCNICO CONFIABLE Y </span>
+              <span className="text-accent">ELECTRODOMÉSTICOS REACONDICIONADOS AL MEJOR PRECIO</span>
+            </motion.h1>
+
+            <motion.p
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+              className="font-inter text-base sm:text-xl text-white mb-6 sm:mb-10"
+            >
+              {heroSubtitle}
+            </motion.p>
+
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+              <motion.button
+                initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7 }}
-                className="font-poppins font-bold text-2xl sm:text-5xl lg:text-6xl leading-tight mb-4 sm:mb-6 uppercase"
+                transition={{ duration: 0.5, delay: 0.4 }}
+                onClick={handleScrollToServices}
+                className="font-poppins font-bold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
               >
-                <span className="text-white">SERVICIO TÉCNICO CONFIABLE Y </span>
-                <span className="text-accent">ELECTRODOMÉSTICOS REACONDICIONADOS AL MEJOR PRECIO</span>
-              </motion.h1>
+                {t('hero.cta_services')}
+              </motion.button>
 
-              <motion.p
-                initial={{ opacity: 0, y: 40 }}
+              <motion.a
+                initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7, delay: 0.2 }}
-                className="font-inter text-base sm:text-xl text-white mb-6 sm:mb-10 uppercase"
+                transition={{ duration: 0.5, delay: 0.5 }}
+                href={`https://wa.me/${WHATSAPP_NUMBER}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-poppins font-bold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-lg bg-white/20 border-2 border-white text-white hover:bg-white hover:text-dark transition-colors text-center backdrop-blur-sm"
               >
-                {heroSubtitle}
-              </motion.p>
-
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <motion.button
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.4 }}
-                  onClick={handleScrollToServices}
-                  className="font-poppins font-bold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
-                >
-                  {t('hero.cta_services')}
-                </motion.button>
-
-                <motion.a
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.5 }}
-                  href={`https://wa.me/${WHATSAPP_NUMBER}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-poppins font-bold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-lg bg-white/20 border-2 border-white text-white hover:bg-white hover:text-dark transition-colors text-center backdrop-blur-sm"
-                >
-                  {t('hero.cta_whatsapp')}
-                </motion.a>
-              </div>
+                {t('hero.cta_whatsapp')}
+              </motion.a>
             </div>
           </div>
         </div>
