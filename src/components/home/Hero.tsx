@@ -62,9 +62,9 @@ export default function Hero() {
       <div className="relative z-10 w-full flex flex-col flex-1 justify-end pb-20 pt-24">
         {/* Elipse gigante que se sale por la izquierda — solo se ve la mitad derecha */}
         <div className="relative w-full mt-2 sm:mt-8">
-          {/* Círculo — desktop más grande, mobile sube y se ajusta */}
+          {/* Círculo desktop */}
           <div
-            className="absolute bg-[#2196D3]/85 rounded-full"
+            className="absolute bg-[#2196D3]/85 rounded-full hidden sm:block"
             style={{
               width: 'clamp(560px, 95vw, 1200px)',
               height: 'clamp(560px, 95vw, 1200px)',
@@ -73,8 +73,18 @@ export default function Hero() {
               transform: 'translateY(-50%)',
             }}
           />
+          {/* Círculo mobile — más grande y subido */}
+          <div
+            className="absolute bg-[#2196D3]/85 rounded-full sm:hidden"
+            style={{
+              width: '520px',
+              height: '520px',
+              left: '-200px',
+              top: '-60px',
+            }}
+          />
           {/* Texto encima del círculo */}
-          <div className="relative z-10 pl-6 sm:pl-16 lg:pl-24 pr-3 sm:pr-0 sm:max-w-2xl py-10 sm:py-28">
+          <div className="relative z-10 pl-6 sm:pl-16 lg:pl-24 pr-3 sm:pr-0 sm:max-w-2xl py-6 sm:py-28">
             <motion.h1
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
