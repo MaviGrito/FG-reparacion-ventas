@@ -57,14 +57,12 @@ export default function Hero() {
         style={{ backgroundImage: "url('/images/fondo.png')" }}
       />
 
+      {/* Overlay azul solo en mobile — cubre toda la imagen */}
+      <div className="absolute inset-0 bg-[#2196D3]/80 sm:hidden" />
+
       {/* MOBILE: contenido arriba */}
       <div className="relative z-10 flex flex-col sm:hidden pt-20 pb-4 flex-1">
         <div className="relative w-full">
-          {/* Círculo mobile */}
-          <div
-            className="absolute bg-[#2196D3]/85 rounded-full"
-            style={{ width: '700px', height: '700px', left: '-280px', top: '-40px' }}
-          />
           <div className="relative z-10 pl-6 pr-3 py-8">
             <h1 className="font-poppins font-bold text-xl leading-tight mb-3 uppercase">
               <span className="text-white">SERVICIO TÉCNICO CONFIABLE Y </span>
