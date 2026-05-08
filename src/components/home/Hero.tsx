@@ -62,29 +62,27 @@ export default function Hero() {
       <div className="relative z-10 w-full flex flex-col flex-1 justify-end pb-20 pt-24">
         {/* Mobile: centrado con padding, Desktop: pegado a la izquierda */}
         <div className="w-full px-4 sm:px-0 sm:mr-auto sm:ml-16 lg:ml-24 sm:max-w-xl mt-16 sm:mt-8">
-          {/* Círculo glassmorphism */}
+          {/* Círculo definido — sin blur, bordes sólidos */}
           <div className="relative">
-            {/* Mobile: círculo más pequeño | Desktop: grande */}
-            <div className="absolute -inset-6 sm:-inset-20 bg-[#0D6EA0]/90 rounded-full blur-2xl sm:blur-3xl" />
-            <div className="absolute -inset-3 sm:-inset-12 bg-[#2196D3]/70 rounded-full blur-lg sm:blur-xl" />
+            {/* Elipse azul sólida semitransparente */}
+            <div className="absolute -inset-6 sm:-inset-16 bg-[#2196D3]/80 rounded-full" />
             {/* Contenido sobre la bola */}
             <div className="relative">
               <motion.h1
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7 }}
-                className="font-poppins font-bold text-2xl sm:text-5xl lg:text-6xl leading-tight mb-4 sm:mb-6 drop-shadow-lg"
+                className="font-poppins font-bold text-2xl sm:text-5xl lg:text-6xl leading-tight mb-4 sm:mb-6 uppercase"
               >
-                <span className="text-white">Servicio técnico confiable y </span>
-                <span className="text-accent">electrodomésticos reacondicionados al </span>
-                <span className="text-white">mejor precio</span>
+                <span className="text-white">SERVICIO TÉCNICO CONFIABLE Y </span>
+                <span className="text-accent">ELECTRODOMÉSTICOS REACONDICIONADOS AL MEJOR PRECIO</span>
               </motion.h1>
 
               <motion.p
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.2 }}
-                className="font-inter text-base sm:text-xl text-white mb-6 sm:mb-10 drop-shadow"
+                className="font-inter text-base sm:text-xl text-white mb-6 sm:mb-10 uppercase"
               >
                 {heroSubtitle}
               </motion.p>
