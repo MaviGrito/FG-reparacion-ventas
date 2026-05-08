@@ -61,7 +61,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 w-full flex flex-col flex-1 justify-end pb-20 pt-24">
         {/* Elipse gigante que se sale por la izquierda — solo se ve la mitad derecha */}
-        <div className="relative w-full mt-2 sm:mt-8">
+        <div className="relative w-full -mt-32 sm:mt-8">
           {/* Círculo desktop */}
           <div
             className="absolute bg-[#2196D3]/85 rounded-full hidden sm:block"
@@ -73,14 +73,14 @@ export default function Hero() {
               transform: 'translateY(-50%)',
             }}
           />
-          {/* Círculo mobile — más grande y subido */}
+          {/* Círculo mobile — enorme para cubrir todo el texto */}
           <div
             className="absolute bg-[#2196D3]/85 rounded-full sm:hidden"
             style={{
-              width: '520px',
-              height: '520px',
-              left: '-200px',
-              top: '-60px',
+              width: '700px',
+              height: '700px',
+              left: '-280px',
+              top: '-80px',
             }}
           />
           {/* Texto encima del círculo */}
