@@ -59,12 +59,14 @@ export default function Hero() {
       {/* Sin overlay — fondo blanco en los bordes */}
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 flex flex-col flex-1 justify-end pb-20">
-        <div className="max-w-2xl -ml-4 mt-8">
+      <div className="relative z-10 w-full flex flex-col flex-1 justify-end pb-20 pt-24">
+        {/* Bloque posicionado a la derecha */}
+        <div className="ml-auto mr-8 sm:mr-16 lg:mr-24 w-full max-w-xl mt-8">
           {/* Círculo glassmorphism */}
           <div className="relative">
-            {/* Bola azul semitransparente de fondo */}
-            <div className="absolute -inset-10 bg-[#2196D3]/75 rounded-full blur-2xl" />
+            {/* Bola azul opaca de fondo */}
+            <div className="absolute -inset-12 bg-[#0D6EA0]/90 rounded-full blur-3xl" />
+            <div className="absolute -inset-6 bg-[#2196D3]/70 rounded-full blur-xl" />
             {/* Contenido sobre la bola */}
             <div className="relative">
               <motion.h1
@@ -82,7 +84,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.2 }}
-                className="font-inter text-lg sm:text-xl text-white mb-10 max-w-xl drop-shadow"
+                className="font-inter text-lg sm:text-xl text-white mb-10 drop-shadow"
               >
                 {heroSubtitle}
               </motion.p>
