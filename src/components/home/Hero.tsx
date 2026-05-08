@@ -61,25 +61,25 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 w-full flex flex-col flex-1 justify-end pb-20 pt-24">
         {/* Elipse gigante que se sale por la izquierda — solo se ve la mitad derecha */}
-        <div className="relative w-full mt-16 sm:mt-8">
-          {/* Círculo azul sólido enorme, anclado a la izquierda saliéndose */}
+        <div className="relative w-full mt-2 sm:mt-8">
+          {/* Círculo — desktop más grande, mobile sube y se ajusta */}
           <div
             className="absolute bg-[#2196D3]/85 rounded-full"
             style={{
-              width: 'clamp(520px, 90vw, 1100px)',
-              height: 'clamp(520px, 90vw, 1100px)',
-              left: 'clamp(-380px, -38vw, -220px)',
+              width: 'clamp(560px, 95vw, 1200px)',
+              height: 'clamp(560px, 95vw, 1200px)',
+              left: 'clamp(-420px, -42vw, -240px)',
               top: '50%',
               transform: 'translateY(-50%)',
             }}
           />
           {/* Texto encima del círculo */}
-          <div className="relative z-10 pl-8 sm:pl-16 lg:pl-24 pr-4 sm:pr-0 sm:max-w-2xl py-20 sm:py-28">
+          <div className="relative z-10 pl-6 sm:pl-16 lg:pl-24 pr-3 sm:pr-0 sm:max-w-2xl py-10 sm:py-28">
             <motion.h1
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
-              className="font-poppins font-bold text-2xl sm:text-5xl lg:text-6xl leading-tight mb-4 sm:mb-6 uppercase"
+              className="font-poppins font-bold text-xl sm:text-5xl lg:text-6xl leading-tight mb-3 sm:mb-6 uppercase"
             >
               <span className="text-white">SERVICIO TÉCNICO CONFIABLE Y </span>
               <span className="text-accent">ELECTRODOMÉSTICOS REACONDICIONADOS AL </span>
@@ -90,18 +90,18 @@ export default function Hero() {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="font-inter text-base sm:text-xl text-white mb-6 sm:mb-10"
+              className="font-inter text-sm sm:text-xl text-white mb-4 sm:mb-10"
             >
               {heroSubtitle}
             </motion.p>
 
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+            <div className="flex flex-row sm:flex-row gap-2 sm:gap-4">
               <motion.button
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
                 onClick={handleScrollToServices}
-                className="font-poppins font-bold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
+                className="font-poppins font-bold text-xs sm:text-base px-3 sm:px-8 py-2 sm:py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors whitespace-nowrap"
               >
                 {t('hero.cta_services')}
               </motion.button>
@@ -113,7 +113,7 @@ export default function Hero() {
                 href={`https://wa.me/${WHATSAPP_NUMBER}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-poppins font-bold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-lg bg-white/20 border-2 border-white text-white hover:bg-white hover:text-dark transition-colors text-center backdrop-blur-sm"
+                className="font-poppins font-bold text-xs sm:text-base px-3 sm:px-8 py-2 sm:py-4 rounded-lg bg-white/20 border-2 border-white text-white hover:bg-white hover:text-dark transition-colors text-center backdrop-blur-sm whitespace-nowrap"
               >
                 {t('hero.cta_whatsapp')}
               </motion.a>
