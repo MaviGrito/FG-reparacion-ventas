@@ -60,20 +60,20 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 w-full flex flex-col flex-1 justify-end pb-20 pt-24">
-        {/* Bloque posicionado a la izquierda */}
-        <div className="mr-auto ml-8 sm:ml-16 lg:ml-24 w-full max-w-xl mt-8">
+        {/* Mobile: centrado con padding, Desktop: pegado a la izquierda */}
+        <div className="w-full px-4 sm:px-0 sm:mr-auto sm:ml-16 lg:ml-24 sm:max-w-xl mt-8">
           {/* Círculo glassmorphism */}
           <div className="relative">
-            {/* Bola azul opaca de fondo — capa exterior grande */}
-            <div className="absolute -inset-20 bg-[#0D6EA0]/90 rounded-full blur-3xl" />
-            <div className="absolute -inset-12 bg-[#2196D3]/70 rounded-full blur-xl" />
+            {/* Mobile: círculo más pequeño | Desktop: grande */}
+            <div className="absolute -inset-6 sm:-inset-20 bg-[#0D6EA0]/90 rounded-full blur-2xl sm:blur-3xl" />
+            <div className="absolute -inset-3 sm:-inset-12 bg-[#2196D3]/70 rounded-full blur-lg sm:blur-xl" />
             {/* Contenido sobre la bola */}
             <div className="relative">
               <motion.h1
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7 }}
-                className="font-poppins font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6 drop-shadow-lg"
+                className="font-poppins font-bold text-2xl sm:text-5xl lg:text-6xl leading-tight mb-4 sm:mb-6 drop-shadow-lg"
               >
                 <span className="text-white">Servicio técnico confiable y </span>
                 <span className="text-accent">electrodomésticos reacondicionados al </span>
@@ -84,18 +84,18 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.2 }}
-                className="font-inter text-lg sm:text-xl text-white mb-10 drop-shadow"
+                className="font-inter text-base sm:text-xl text-white mb-6 sm:mb-10 drop-shadow"
               >
                 {heroSubtitle}
               </motion.p>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <motion.button
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.4 }}
                   onClick={handleScrollToServices}
-                  className="font-poppins font-bold text-base px-8 py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
+                  className="font-poppins font-bold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
                 >
                   {t('hero.cta_services')}
                 </motion.button>
@@ -107,7 +107,7 @@ export default function Hero() {
                   href={`https://wa.me/${WHATSAPP_NUMBER}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-poppins font-bold text-base px-8 py-4 rounded-lg bg-white/20 border-2 border-white text-white hover:bg-white hover:text-dark transition-colors text-center backdrop-blur-sm"
+                  className="font-poppins font-bold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-lg bg-white/20 border-2 border-white text-white hover:bg-white hover:text-dark transition-colors text-center backdrop-blur-sm"
                 >
                   {t('hero.cta_whatsapp')}
                 </motion.a>
