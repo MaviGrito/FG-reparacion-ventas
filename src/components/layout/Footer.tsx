@@ -70,21 +70,18 @@ export default function Footer() {
           {/* Social + contact */}
           <div>
             <p className="font-poppins font-semibold text-accent mb-4">{t('footer.follow_us')}</p>
+            {/* Íconos sociales */}
             <div className="flex items-center gap-4 mb-4">
               {settings.socialLinks?.facebook && (
                 <a href={settings.socialLinks.facebook} target="_blank" rel="noopener noreferrer" className="text-neutral/80 hover:text-accent transition-colors" aria-label="Facebook">
                   <FacebookIcon />
                 </a>
               )}
-              {settings.socialLinks?.instagram && (
-                <a href={settings.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="text-neutral/80 hover:text-accent transition-colors" aria-label="Instagram">
-                  <InstagramIcon />
-                </a>
-              )}
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="text-neutral/80 hover:text-whatsapp transition-colors" aria-label="WhatsApp">
-                <WhatsAppIcon />
+              <a href="https://www.instagram.com/fgappliance/" target="_blank" rel="noopener noreferrer" className="text-neutral/80 hover:text-accent transition-colors" aria-label="Instagram">
+                <InstagramIcon />
               </a>
             </div>
+            {/* Números WhatsApp */}
             <div className="flex flex-col gap-2">
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="font-inter text-sm text-neutral/80 hover:text-whatsapp transition-colors flex items-center gap-2">
                 <WhatsAppIcon /> +1 (561) 853-8703

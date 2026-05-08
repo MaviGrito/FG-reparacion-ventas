@@ -66,15 +66,15 @@ export default function Hero() {
           <div
             className="absolute bg-[#2196D3]/85 rounded-full"
             style={{
-              width: 'clamp(420px, 75vw, 900px)',
-              height: 'clamp(420px, 75vw, 900px)',
-              left: 'clamp(-300px, -30vw, -180px)',
+              width: 'clamp(520px, 90vw, 1100px)',
+              height: 'clamp(520px, 90vw, 1100px)',
+              left: 'clamp(-380px, -38vw, -220px)',
               top: '50%',
               transform: 'translateY(-50%)',
             }}
           />
           {/* Texto encima del círculo */}
-          <div className="relative z-10 pl-8 sm:pl-16 lg:pl-24 pr-4 sm:pr-0 sm:max-w-xl py-16 sm:py-24">
+          <div className="relative z-10 pl-8 sm:pl-16 lg:pl-24 pr-4 sm:pr-0 sm:max-w-2xl py-20 sm:py-28">
             <motion.h1
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
@@ -82,7 +82,8 @@ export default function Hero() {
               className="font-poppins font-bold text-2xl sm:text-5xl lg:text-6xl leading-tight mb-4 sm:mb-6 uppercase"
             >
               <span className="text-white">SERVICIO TÉCNICO CONFIABLE Y </span>
-              <span className="text-accent">ELECTRODOMÉSTICOS REACONDICIONADOS AL MEJOR PRECIO</span>
+              <span className="text-accent">ELECTRODOMÉSTICOS REACONDICIONADOS AL </span>
+              <span className="text-white">MEJOR PRECIO</span>
             </motion.h1>
 
             <motion.p

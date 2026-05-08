@@ -30,18 +30,22 @@ export default function WhyUs() {
               {t('whyUs.subtitle')}
             </motion.p>
 
-            <ul className="space-y-4">
+            <ul className="space-y-3">
               {points.map((point, index) => (
                 <motion.li
                   key={index}
                   initial={{ opacity: 0, x: -30 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="flex items-start gap-3"
+                  transition={{ duration: 0.5, delay: index * 0.08 }}
+                  className="flex items-center gap-4"
                 >
-                  <span className="text-xl mt-0.5 flex-shrink-0">✅</span>
-                  <span className="font-inter text-white/90 text-base">{point}</span>
+                  {/* Línea amarilla + punto como viñeta */}
+                  <div className="flex items-center gap-2 flex-shrink-0">
+                    <div className="w-6 h-0.5 bg-accent" />
+                    <div className="w-2 h-2 rounded-full bg-accent" />
+                  </div>
+                  <span className="font-inter text-white/95 text-lg">{point}</span>
                 </motion.li>
               ))}
             </ul>
