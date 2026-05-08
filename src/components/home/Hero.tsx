@@ -53,7 +53,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden">
       {/* Background image */}
       <div
-        className="absolute inset-0 bg-white bg-contain bg-[center_30%] bg-no-repeat"
+        className="absolute inset-0 bg-white bg-contain bg-[center_10%] sm:bg-[center_30%] bg-no-repeat"
         style={{ backgroundImage: "url('/images/fondo.png')" }}
       />
       {/* Sin overlay — fondo blanco en los bordes */}
@@ -61,7 +61,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 w-full flex flex-col flex-1 justify-end pb-20 pt-24">
         {/* Mobile: centrado con padding, Desktop: pegado a la izquierda */}
-        <div className="w-full px-4 sm:px-0 sm:mr-auto sm:ml-16 lg:ml-24 sm:max-w-xl mt-8">
+        <div className="w-full px-4 sm:px-0 sm:mr-auto sm:ml-16 lg:ml-24 sm:max-w-xl mt-16 sm:mt-8">
           {/* Círculo glassmorphism */}
           <div className="relative">
             {/* Mobile: círculo más pequeño | Desktop: grande */}
