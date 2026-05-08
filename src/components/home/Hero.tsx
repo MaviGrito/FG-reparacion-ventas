@@ -59,12 +59,12 @@ export default function Hero() {
       {/* Sin overlay — fondo blanco en los bordes */}
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 flex flex-col flex-1 justify-end pb-32">
-        <div className="max-w-2xl">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 flex flex-col flex-1 justify-end pb-20">
+        <div className="max-w-2xl -ml-4 mt-8">
           {/* Círculo glassmorphism */}
           <div className="relative">
             {/* Bola azul semitransparente de fondo */}
-            <div className="absolute -inset-10 bg-[#2196D3]/40 rounded-full blur-2xl" />
+            <div className="absolute -inset-10 bg-[#2196D3]/75 rounded-full blur-2xl" />
             {/* Contenido sobre la bola */}
             <div className="relative">
               <motion.h1
