@@ -50,7 +50,7 @@ export default function Hero() {
   }
 
   return (
-    <section className="relative min-h-screen flex flex-col overflow-hidden">
+    <section className="relative min-h-[60vw] sm:min-h-screen flex flex-col overflow-hidden">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-white bg-contain bg-[center_10%] sm:bg-[center_30%] bg-no-repeat"
