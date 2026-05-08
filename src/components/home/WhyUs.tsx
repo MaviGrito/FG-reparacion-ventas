@@ -6,7 +6,7 @@ export default function WhyUs() {
   const points = t('whyUs.points', { returnObjects: true }) as string[]
 
   return (
-    <section className="bg-gradient-to-br from-dark to-navy py-20 px-4 sm:px-6 lg:px-8">
+    <section className="bg-gradient-to-br from-dark to-primaryDark py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left: text content */}
@@ -25,7 +25,7 @@ export default function WhyUs() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="font-inter text-textLight/70 mb-10"
+              className="font-inter text-white/70 mb-10"
             >
               {t('whyUs.subtitle')}
             </motion.p>
@@ -41,7 +41,7 @@ export default function WhyUs() {
                   className="flex items-start gap-3"
                 >
                   <span className="text-xl mt-0.5 flex-shrink-0">✅</span>
-                  <span className="font-inter text-textLight/90 text-base">{point}</span>
+                  <span className="font-inter text-white/90 text-base">{point}</span>
                 </motion.li>
               ))}
             </ul>

@@ -84,7 +84,7 @@ export default function ProductCard({ product, locale, index = 0 }: ProductCardP
         <h3 className="font-poppins font-bold text-base text-textMain mb-1 line-clamp-2">{name}</h3>
         <p className="font-inter text-sm text-textMain/60 mb-3 line-clamp-2 flex-1">{description}</p>
         <div className="flex items-center justify-between mt-auto">
-          <span className="font-poppins font-bold text-xl text-coral">${product.price.toLocaleString()}</span>
+          <span className="font-poppins font-bold text-xl text-primary">${product.price.toLocaleString()}</span>
           <a
             href={whatsappUrl}
             target="_blank"

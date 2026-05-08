@@ -49,17 +49,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand + slogan */}
           <div>
-            <p className="font-poppins font-bold text-2xl text-white mb-2">F&amp;G</p>
-            <p className="font-inter text-sm text-textLight/70">{t('footer.slogan')}</p>
+            <img src="/images/logo.png" alt="FG Appliance Service" className="h-12 w-auto mb-3" />
+            <p className="font-inter text-sm text-neutral/80">{t('footer.slogan')}</p>
           </div>
 
           {/* Quick links */}
           <div>
-            <p className="font-poppins font-semibold text-white mb-4">{t('footer.quick_links')}</p>
+            <p className="font-poppins font-semibold text-accent mb-4">{t('footer.quick_links')}</p>
             <ul className="space-y-2">
               {NAV_LINKS.map(({ key, to }) => (
                 <li key={key}>
-                  <Link to={to} className="font-inter text-sm text-textLight/70 hover:text-coral transition-colors">
+                  <Link to={to} className="font-inter text-sm text-neutral/80 hover:text-accent transition-colors">
                     {t(key)}
                   </Link>
                 </li>
@@ -69,27 +69,27 @@ export default function Footer() {
 
           {/* Social + contact */}
           <div>
-            <p className="font-poppins font-semibold text-white mb-4">{t('footer.follow_us')}</p>
+            <p className="font-poppins font-semibold text-accent mb-4">{t('footer.follow_us')}</p>
             <div className="flex items-center gap-4 mb-4">
               {settings.socialLinks?.facebook && (
-                <a href={settings.socialLinks.facebook} target="_blank" rel="noopener noreferrer" className="text-textLight/70 hover:text-coral transition-colors" aria-label="Facebook">
+                <a href={settings.socialLinks.facebook} target="_blank" rel="noopener noreferrer" className="text-neutral/80 hover:text-accent transition-colors" aria-label="Facebook">
                   <FacebookIcon />
                 </a>
               )}
               {settings.socialLinks?.instagram && (
-                <a href={settings.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="text-textLight/70 hover:text-coral transition-colors" aria-label="Instagram">
+                <a href={settings.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="text-neutral/80 hover:text-accent transition-colors" aria-label="Instagram">
                   <InstagramIcon />
                 </a>
               )}
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="text-textLight/70 hover:text-[#25D366] transition-colors" aria-label="WhatsApp">
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="text-neutral/80 hover:text-whatsapp transition-colors" aria-label="WhatsApp">
                 <WhatsAppIcon />
               </a>
             </div>
             <div className="flex flex-col gap-2">
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="font-inter text-sm text-textLight/70 hover:text-[#25D366] transition-colors flex items-center gap-2">
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="font-inter text-sm text-neutral/80 hover:text-whatsapp transition-colors flex items-center gap-2">
                 <WhatsAppIcon /> +1 (561) 853-8703
               </a>
-              <a href={whatsappUrl2} target="_blank" rel="noopener noreferrer" className="font-inter text-sm text-textLight/70 hover:text-[#25D366] transition-colors flex items-center gap-2">
+              <a href={whatsappUrl2} target="_blank" rel="noopener noreferrer" className="font-inter text-sm text-neutral/80 hover:text-whatsapp transition-colors flex items-center gap-2">
                 <WhatsAppIcon /> +1 (561) 853-4450
               </a>
             </div>
@@ -98,8 +98,8 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-10 pt-6 border-t border-white/10 text-center">
-          <p className="font-inter text-xs text-textLight/50">
-            © {new Date().getFullYear()} F&amp;G Reparación y Ventas
+          <p className="font-inter text-xs text-neutral/50">
+            © {new Date().getFullYear()} FG Appliance Service. All rights reserved.
           </p>
         </div>
       </div>

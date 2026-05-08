@@ -50,7 +50,7 @@ export default function MaintenanceSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="bg-light rounded-2xl p-6 flex flex-col items-start gap-3 shadow-sm hover:shadow-md transition-shadow"
+              className="bg-white rounded-2xl p-6 flex flex-col items-start gap-3 shadow-sm hover:shadow-md border border-neutral/30 transition-shadow"
             >
               <span className="text-4xl">{item.icon}</span>
               <h3 className="font-poppins font-bold text-base text-textMain">{item.title}</h3>
@@ -70,7 +70,7 @@ export default function MaintenanceSection() {
             href={`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER || '15618538703'}?text=${encodeURIComponent('Hola, me interesa agendar un mantenimiento preventivo.')}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 font-poppins font-semibold text-base px-8 py-4 rounded-lg bg-coral text-white hover:bg-coral/90 transition-colors"
+            className="inline-flex items-center gap-2 font-poppins font-bold text-base px-8 py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
           >
             🔧 Agenda tu mantenimiento ahora
           </a>

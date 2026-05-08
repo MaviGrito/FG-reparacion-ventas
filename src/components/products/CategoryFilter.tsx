@@ -28,8 +28,8 @@ export default function CategoryFilter({ active, onChange, customCategories = []
       {/* Todos */}
       <button
         onClick={() => onChange('all')}
-        className={`font-poppins font-semibold text-sm px-4 py-2 rounded-full border-2 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-coral ${
-          active === 'all' ? 'bg-coral border-coral text-white' : 'bg-white border-border text-textMain hover:border-coral hover:text-coral'
+        className={`font-poppins font-semibold text-sm px-4 py-2 rounded-full border-2 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+          active === 'all' ? 'bg-accent border-accent text-dark' : 'bg-white border-border text-textMain hover:border-primary hover:text-primary'
         }`}
       >
         {t('products.filter_all')}
@@ -40,8 +40,8 @@ export default function CategoryFilter({ active, onChange, customCategories = []
         <button
           key={value}
           onClick={() => onChange(value)}
-          className={`font-poppins font-semibold text-sm px-4 py-2 rounded-full border-2 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-coral ${
-            active === value ? 'bg-coral border-coral text-white' : 'bg-white border-border text-textMain hover:border-coral hover:text-coral'
+          className={`font-poppins font-semibold text-sm px-4 py-2 rounded-full border-2 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+            active === value ? 'bg-accent border-accent text-dark' : 'bg-white border-border text-textMain hover:border-primary hover:text-primary'
           }`}
         >
           {t(labelKey)}
@@ -53,8 +53,8 @@ export default function CategoryFilter({ active, onChange, customCategories = []
         <button
           key={cat}
           onClick={() => onChange(cat)}
-          className={`font-poppins font-semibold text-sm px-4 py-2 rounded-full border-2 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-coral ${
-            active === cat ? 'bg-coral border-coral text-white' : 'bg-white border-border text-textMain hover:border-coral hover:text-coral'
+          className={`font-poppins font-semibold text-sm px-4 py-2 rounded-full border-2 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+            active === cat ? 'bg-accent border-accent text-dark' : 'bg-white border-border text-textMain hover:border-primary hover:text-primary'
           }`}
         >
           {cat.charAt(0).toUpperCase() + cat.slice(1)}
@@ -64,8 +64,8 @@ export default function CategoryFilter({ active, onChange, customCategories = []
       {/* Otros */}
       <button
         onClick={() => onChange('otro')}
-        className={`font-poppins font-semibold text-sm px-4 py-2 rounded-full border-2 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-coral ${
-          active === 'otro' ? 'bg-coral border-coral text-white' : 'bg-white border-border text-textMain hover:border-coral hover:text-coral'
+        className={`font-poppins font-semibold text-sm px-4 py-2 rounded-full border-2 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+          active === 'otro' ? 'bg-accent border-accent text-dark' : 'bg-white border-border text-textMain hover:border-primary hover:text-primary'
         }`}
       >
         {t('products.filter_other')}

@@ -108,7 +108,7 @@ export default function BrandsCarousel() {
   const { t } = useTranslation()
 
   return (
-    <section className="bg-light py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-neutral/20 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto mb-10 text-center">
         <h2 className="font-poppins font-bold text-3xl text-textMain mb-2">
           {t('brands.title')}

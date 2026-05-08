@@ -29,7 +29,7 @@ export default function ServiceCard({ service, expanded = false }: ServiceCardPr
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      whileHover={{ y: -6, boxShadow: '0 20px 40px rgba(232,82,58,0.25)' }}
+      whileHover={{ y: -6, boxShadow: '0 20px 40px rgba(33,150,211,0.3)' }}
       transition={{ duration: 0.4 }}
       className="relative bg-white rounded-2xl overflow-hidden shadow-md flex flex-col"
     >

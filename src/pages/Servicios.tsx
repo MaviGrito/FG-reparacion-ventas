@@ -13,7 +13,7 @@ export default function Servicios() {
       <Navbar />
       <main className="pt-16">
         {/* Header */}
-        <section className="bg-gradient-to-br from-dark to-navy py-20 px-4 sm:px-6 lg:px-8">
+        <section className="bg-gradient-to-br from-dark to-primaryDark py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto text-center">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
@@ -27,7 +27,7 @@ export default function Servicios() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.15 }}
-              className="font-inter text-textLight/70 text-lg max-w-xl mx-auto"
+              className="font-inter text-white/70 text-lg max-w-xl mx-auto"
             >
               {t('services.subtitle')}
             </motion.p>
@@ -35,7 +35,7 @@ export default function Servicios() {
         </section>
 
         {/* Grid */}
-        <section className="bg-light py-20 px-4 sm:px-6 lg:px-8">
+        <section className="bg-primary py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <ServicesGrid expanded={true} />
           </div>

@@ -31,7 +31,7 @@ function AnimatedCounter({ value, suffix, labelKey }: { value: number; suffix: s
         <motion.span className="font-poppins font-bold text-3xl sm:text-4xl text-white">
           {rounded}
         </motion.span>
-        <span className="font-poppins font-bold text-2xl sm:text-3xl text-coral mb-0.5">{suffix}</span>
+        <span className="font-poppins font-bold text-2xl sm:text-3xl text-accent mb-0.5">{suffix}</span>
       </div>
       <span className="font-inter text-xs sm:text-sm text-textLight/80 text-center mt-1">{t(labelKey)}</span>
     </div>
@@ -87,7 +87,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
               onClick={handleScrollToServices}
-              className="font-poppins font-semibold text-base px-8 py-4 rounded-lg bg-coral text-white hover:bg-coral/90 transition-colors"
+              className="font-poppins font-bold text-base px-8 py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
             >
               {t('hero.cta_services')}
             </motion.button>
@@ -99,7 +99,7 @@ export default function Hero() {
               href={`https://wa.me/${WHATSAPP_NUMBER}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-poppins font-semibold text-base px-8 py-4 rounded-lg bg-[#25D366] text-white hover:bg-[#20bd5a] transition-colors text-center"
+              className="font-poppins font-bold text-base px-8 py-4 rounded-lg bg-white/10 border-2 border-white text-white hover:bg-white hover:text-dark transition-colors text-center backdrop-blur-sm"
             >
               {t('hero.cta_whatsapp')}
             </motion.a>

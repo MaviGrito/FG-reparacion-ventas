@@ -7,7 +7,7 @@ export default function ServicesPreview() {
   const { t } = useTranslation()
 
   return (
-    <section className="bg-light py-20 px-4 sm:px-6 lg:px-8">
+    <section className="bg-primary py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -16,10 +16,10 @@ export default function ServicesPreview() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="font-poppins font-bold text-3xl sm:text-4xl text-textMain mb-3">
+          <h2 className="font-poppins font-bold text-3xl sm:text-4xl text-white mb-3">
             {t('services.title')}
           </h2>
-          <p className="font-inter text-textMain/60 max-w-xl mx-auto">
+          <p className="font-inter text-white/70 max-w-xl mx-auto">
             {t('services.subtitle')}
           </p>
         </motion.div>
@@ -35,7 +35,7 @@ export default function ServicesPreview() {
         >
           <Link
             to="/servicios"
-            className="inline-flex items-center gap-2 font-poppins font-semibold text-base px-8 py-4 rounded-lg bg-navy text-white hover:bg-navy/90 transition-colors"
+            className="inline-flex items-center gap-2 font-poppins font-bold text-base px-8 py-4 rounded-lg bg-accent text-dark hover:bg-accentDark transition-colors"
           >
             Ver todos los servicios →
           </Link>

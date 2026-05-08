@@ -13,7 +13,7 @@ export default function Productos() {
     <PageTransition>
       <Navbar />
       <main className="pt-16">
-        <section className="bg-gradient-to-br from-dark to-navy py-20 px-4 sm:px-6 lg:px-8">
+        <section className="bg-gradient-to-br from-dark to-primaryDark py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto text-center">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ export default function Productos() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.15 }}
-              className="font-inter text-textLight/70 text-lg max-w-xl mx-auto"
+              className="font-inter text-white/70 text-lg max-w-xl mx-auto"
             >
               {t('products.subtitle')}
             </motion.p>
