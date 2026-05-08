@@ -43,7 +43,6 @@ export default function Hero() {
   const { settings } = useSettings()
 
   const locale = (typeof window !== 'undefined' ? localStorage.getItem('fg_locale') : null) || 'es'
-  const heroTitle = settings.hero?.title?.[locale as 'es' | 'en' | 'fr'] || t('hero.title')
   const heroSubtitle = settings.hero?.subtitle?.[locale as 'es' | 'en' | 'fr'] || t('hero.subtitle')
 
   const handleScrollToServices = () => {
