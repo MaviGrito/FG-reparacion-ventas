@@ -60,13 +60,13 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 w-full flex flex-col flex-1 justify-end pb-20 pt-24">
-        {/* Bloque posicionado a la derecha */}
-        <div className="ml-auto mr-8 sm:mr-16 lg:mr-24 w-full max-w-xl mt-8">
+        {/* Bloque posicionado a la izquierda */}
+        <div className="mr-auto ml-8 sm:ml-16 lg:ml-24 w-full max-w-xl mt-8">
           {/* Círculo glassmorphism */}
           <div className="relative">
-            {/* Bola azul opaca de fondo */}
-            <div className="absolute -inset-12 bg-[#0D6EA0]/90 rounded-full blur-3xl" />
-            <div className="absolute -inset-6 bg-[#2196D3]/70 rounded-full blur-xl" />
+            {/* Bola azul opaca de fondo — capa exterior grande */}
+            <div className="absolute -inset-20 bg-[#0D6EA0]/90 rounded-full blur-3xl" />
+            <div className="absolute -inset-12 bg-[#2196D3]/70 rounded-full blur-xl" />
             {/* Contenido sobre la bola */}
             <div className="relative">
               <motion.h1
